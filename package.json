@@ -1,0 +1,39 @@
+{
+  "name": "automacao-codeceptjs-web",
+  "version": "1.0.0",
+  "description": "Projeto de automação de testes para web com WebDriver",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run",
+    "codeceptjs": "codeceptjs run --steps",
+    "codeceptjs:headless": "HEADLESS=true codeceptjs run --steps",
+    "codeceptjs:ui": "codecept-ui --app",
+    "codeceptjs:demo": "codeceptjs run --steps -c node_modules/@codeceptjs/examples/codecept.webdriver.conf.js",
+    "codeceptjs:demo:headless": "HEADLESS=true codeceptjs run --steps -c node_modules/@codeceptjs/examples/codecept.webdriver.conf.js",
+    "codeceptjs:demo:ui": "codecept-ui --app  -c node_modules/@codeceptjs/examples/codecept.webdriver.conf.js"
+  },
+  "author": "Rodrigo Octavio F da S Pinto",
+  "license": "ISC",
+  "devDependencies": {
+    "@codeceptjs/allure-legacy": "^1.0.2",
+    "@codeceptjs/configure": "^1.0.4",
+    "@codeceptjs/examples": "^1.2.4",
+    "@codeceptjs/ui": "^1.2.4",
+    "@faker-js/faker": "^9.8.0",
+    "@wdio/allure-reporter": "^9.16.2",
+    "@wdio/selenium-standalone-service": "^8.14.0",
+    "allure-codeceptjs": "^3.3.0",
+    "codeceptjs": "^3.7.3",
+    "faker": "^6.6.6",
+    "geckodriver": "^5.0.0",
+    "gerador-validador-cpf": "^6.3.0",
+    "mocha": "^11.7.1",
+    "playwright": "^1.53.1",
+    "rosie": "^2.1.1",
+    "stepbystep": "^0.0.1",
+    "webdriverio": "^8.45.0"
+  },
+  "dependencies": {
+    "mochawesome": "^7.1.3"
+  }
+}

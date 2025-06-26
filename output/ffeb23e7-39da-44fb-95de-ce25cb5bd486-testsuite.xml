@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1750848073045' stop='1750848084007'>
+    <name>login e registro:</name>
+    <title>login e registro:</title>
+    <test-cases>
+        <test-case start='1750848073054' status='failed' stop='1750848077566'>
+            <name>Registro Vazio</name>
+            <title>Registro Vazio</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1750848076401' status='passed' stop='1750848076623'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1750848076623' status='passed' stop='1750848077563'>
+                    <name>I click "#top_header > div > div > div:nth-child(2) > div > ul > li:nth-child(2) > a"</name>
+                    <title>I click "#top_header > div > div > div:nth-child(2) > div > ul > li:nth-child(2) > a"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='c5df13aa-4698-44a5-98e8-31c3a0de67d5-attachment.png' type='image/png' size='55766'/>
+            </attachments>
+            <failure>
+                <message>allure.addFeature is not a function</message>
+                <stack-trace>TypeError: allure.addFeature is not a function
+                    at Test.&lt;anonymous> (C:\Documentos\QAZANDO\automacao-codeceptjs-web\steps\login_test.js:30:10)
+                    at test.fn (C:\Documentos\QAZANDO\automacao-codeceptjs-web\node_modules\codeceptjs\lib\mocha\asyncWrapper.js:100:14)
+                    at callFnAsync (C:\Documentos\QAZANDO\automacao-codeceptjs-web\node_modules\codeceptjs\node_modules\mocha\lib\runnable.js:392:21)
+                    at Runnable.run (C:\Documentos\QAZANDO\automacao-codeceptjs-web\node_modules\codeceptjs\node_modules\mocha\lib\runnable.js:336:7)
+                    at Runner.runTest (C:\Documentos\QAZANDO\automacao-codeceptjs-web\node_modules\codeceptjs\node_modules\mocha\lib\runner.js:677:10)
+                    at C:\Documentos\QAZANDO\automacao-codeceptjs-web\node_modules\codeceptjs\node_modules\mocha\lib\runner.js:800:12
+                    at next (C:\Documentos\QAZANDO\automacao-codeceptjs-web\node_modules\codeceptjs\node_modules\mocha\lib\runner.js:592:14)
+                    at C:\Documentos\QAZANDO\automacao-codeceptjs-web\node_modules\codeceptjs\node_modules\mocha\lib\runner.js:602:7
+                    at next (C:\Documentos\QAZANDO\automacao-codeceptjs-web\node_modules\codeceptjs\node_modules\mocha\lib\runner.js:485:14)
+                    at cbHookRun (C:\Documentos\QAZANDO\automacao-codeceptjs-web\node_modules\codeceptjs\node_modules\mocha\lib\runner.js:550:7)
+                    at done (C:\Documentos\QAZANDO\automacao-codeceptjs-web\node_modules\codeceptjs\node_modules\mocha\lib\runnable.js:308:5)
+                    at C:\Documentos\QAZANDO\automacao-codeceptjs-web\node_modules\codeceptjs\node_modules\mocha\lib\runnable.js:412:7
+                    at C:\Documentos\QAZANDO\automacao-codeceptjs-web\node_modules\codeceptjs\lib\mocha\asyncWrapper.js:37:12
+                    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1750848078937' status='failed' stop='1750848082066'>
+            <name>Exemplo de Registro</name>
+            <title>Exemplo de Registro</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1750848080873' status='passed' stop='1750848080978'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1750848080978' status='passed' stop='1750848082062'>
+                    <name>I click "#top_header > div > div > div:nth-child(2) > div > ul > li:nth-child(2) > a"</name>
+                    <title>I click "#top_header > div > div > div:nth-child(2) > div > ul > li:nth-child(2) > a"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='2111e1b5-0abd-4f68-a6a6-3411696bd7a2-attachment.png' type='image/png' size='55394'/>
+            </attachments>
+            <failure>
+                <message>allure.addFeature is not a function</message>
+                <stack-trace>TypeError: allure.addFeature is not a function
+                    at Test.&lt;anonymous> (C:\Documentos\QAZANDO\automacao-codeceptjs-web\steps\login_test.js:37:10)
+                    at test.fn (C:\Documentos\QAZANDO\automacao-codeceptjs-web\node_modules\codeceptjs\lib\mocha\asyncWrapper.js:81:10)
+                    at callFnAsync (C:\Documentos\QAZANDO\automacao-codeceptjs-web\node_modules\codeceptjs\node_modules\mocha\lib\runnable.js:392:21)
+                    at Runnable.run (C:\Documentos\QAZANDO\automacao-codeceptjs-web\node_modules\codeceptjs\node_modules\mocha\lib\runnable.js:336:7)
+                    at Runner.runTest (C:\Documentos\QAZANDO\automacao-codeceptjs-web\node_modules\codeceptjs\node_modules\mocha\lib\runner.js:677:10)
+                    at C:\Documentos\QAZANDO\automacao-codeceptjs-web\node_modules\codeceptjs\node_modules\mocha\lib\runner.js:800:12
+                    at next (C:\Documentos\QAZANDO\automacao-codeceptjs-web\node_modules\codeceptjs\node_modules\mocha\lib\runner.js:592:14)
+                    at C:\Documentos\QAZANDO\automacao-codeceptjs-web\node_modules\codeceptjs\node_modules\mocha\lib\runner.js:602:7
+                    at next (C:\Documentos\QAZANDO\automacao-codeceptjs-web\node_modules\codeceptjs\node_modules\mocha\lib\runner.js:485:14)
+                    at cbHookRun (C:\Documentos\QAZANDO\automacao-codeceptjs-web\node_modules\codeceptjs\node_modules\mocha\lib\runner.js:550:7)
+                    at done (C:\Documentos\QAZANDO\automacao-codeceptjs-web\node_modules\codeceptjs\node_modules\mocha\lib\runnable.js:308:5)
+                    at C:\Documentos\QAZANDO\automacao-codeceptjs-web\node_modules\codeceptjs\node_modules\mocha\lib\runnable.js:412:7
+                    at C:\Documentos\QAZANDO\automacao-codeceptjs-web\node_modules\codeceptjs\lib\mocha\asyncWrapper.js:37:12
+                    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
