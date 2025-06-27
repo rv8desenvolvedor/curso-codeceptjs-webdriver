@@ -18,4 +18,4 @@ npm install
 npx codeceptjs run --steps
 ```
 
-Autor: Rodrigo Octavio F da S Pinto
+Autor: Rodrigo Octavio F. da S. Pinto
